@@ -125,8 +125,8 @@ export default function Home() {
             className="flex flex-wrap items-center gap-5"
           >
             <motion.a
-              href="/resume.pdf"
-              download
+              href="/CV_Prabodha%20Harshani.pdf"
+              download="CV_Prabodha_Harshani.pdf"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.97 }}
               className="border border-[#00df82] text-[#00df82] rounded-full px-6 py-3 text-sm font-semibold flex items-center gap-2 hover:bg-[#00df82] hover:text-[#010a1f] btn-glow transition-colors duration-300"

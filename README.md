@@ -41,5 +41,5 @@ npm start
 
 ## Notes
 
-- Place your CV at `public/resume.pdf` so the **Download CV** button works.
+- CV file: `public/CV_Prabodha Harshani.pdf` (Download CV button)
 - Do not commit `.env` / `.env.local` (already gitignored).
