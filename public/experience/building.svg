@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Building">
+  <rect width="64" height="64" rx="10" fill="#0a1530"/>
+  <!-- Tall building (right) -->
+  <path fill="#00df82" fill-opacity="0.55" d="M34 12h18v40H34z"/>
+  <!-- Short building (left) -->
+  <path fill="#00df82" fill-opacity="0.85" d="M12 26h22v26H12z"/>
+  <!-- Dark overlapping base on right building -->
+  <path fill="#00df82" d="M34 38h18v14H34z"/>
+</svg>
