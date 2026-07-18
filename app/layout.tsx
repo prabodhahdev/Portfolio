@@ -10,6 +10,10 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "P.Harshani",
   description: "Portfolio of Prabodha Harshani — Software Engineer",
+  icons: {
+    icon: [{ url: "/logo-2.png", type: "image/png" }],
+    apple: [{ url: "/logo-2.png", type: "image/png" }],
+  },
 };
 
 export default function RootLayout({
