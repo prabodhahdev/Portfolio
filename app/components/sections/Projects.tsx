@@ -100,7 +100,7 @@ const projects: Project[] = [
   {
     title: "Laaya Fashion - Ecommerce Website",
     description:
-      "MERN stack portals designed for administrators and doctors to manage doctors, appointments, availability, profiles, and dashboard information efficiently.",
+    "A full-stack MERN e-commerce platform that allows customers to browse products, view product details, manage their shopping cart, and place orders through a responsive and user-friendly interface. The application also includes an admin panel for managing products and store inventory.",
     tags: [
       "React",
       "Node.js",
