@@ -81,7 +81,7 @@ export default function About() {
             >
               <GraduationCap size={15} className="shrink-0" />
               <span>
-                Bsc (Hons) in Software Engineering · Sabaragamuwa University of Sri Lanka
+                BSc (Hons) in Software Engineering · Sabaragamuwa University of Sri Lanka
               </span>
             </button>
 
