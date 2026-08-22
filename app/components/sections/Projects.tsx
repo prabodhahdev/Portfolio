@@ -55,6 +55,81 @@ export type Project = {
 
 const projects: Project[] = [
   {
+    title: "DocBook - User Portal",
+    description:
+      "A MERN stack patient portal that allows users to find doctors, book and manage appointments, view appointment details, and manage their profiles through a responsive and user-friendly interface.",
+    tags: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JavaScript",
+      "JWT",
+      "REST API",
+      "Cloudinary",
+      "Tailwind CSS",
+    ],
+    linkedinEmbedSrc:
+      "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7306929079423827968?compact=1",
+    role: "Full Stack Developer",
+    company: "",
+    githubUrl: "https://github.com/prabodhahdev/DocBook",
+    liveUrl: "https://doc-book-ten.vercel.app/",
+  },
+  {
+    title: "DocBook -Admin/Doctor Portal",
+    description:
+      "MERN stack portals designed for administrators and doctors to manage doctors, appointments, availability, profiles, and dashboard information efficiently.",
+    tags: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JavaScript",
+      "JWT",
+      "REST API",
+      "Cloudinary",
+      "Tailwind CSS",
+    ],
+    image: "/projects/admin.png",
+    role: "Full Stack Developer",
+    company: "",
+    githubUrl: "https://github.com/prabodhahdev/DocBook",
+    liveUrl: "https://doc-book-admin.vercel.app/",
+  },
+  {
+    title: "Laaya Fashion - Ecommerce Website",
+    description:
+      "MERN stack portals designed for administrators and doctors to manage doctors, appointments, availability, profiles, and dashboard information efficiently.",
+    tags: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JavaScript",
+      "JWT",
+      "REST API",
+      "Cloudinary",
+      "CSS",
+    ],
+    image: "/projects/ecom.png",
+    role: "Full Stack Developer",
+    company: "",
+    githubUrl: "https://github.com/prabodhahdev/CODSOFT_E-Commerce/",
+    liveUrl: "https://codsoft-e-commerce.vercel.app/",
+  },
+  {
+    title: "AI Job Recommendation System",
+    description:
+      "An AI-powered job aggregation and recommendation system designed for Sri Lanka. It collects job opportunities from multiple platforms and recommends relevant jobs based on candidate skills, experience, and career field using NLP and machine learning.",
+    tags: ["Python", "Machine Learning", "NLP", "SBERT", "BM25"],
+    liveUrl: "https://research-three-blush.vercel.app/",
+    githubUrl: "https://github.com/prabodhahdev/research",
+    image: "/projects/research.png",
+    company: "Final Year Research Project",
+    role: "Researcher & Developer",
+  },
+  {
     title: "Monaro Lands",
     description:
       "A modern real estate website for Monaro Lands, developed as a team project during my internship at Sphiria Digital Studio. I contributed as a Frontend Developer, focusing on responsive UI, page layouts, and a polished user experience.",
@@ -64,6 +139,7 @@ const projects: Project[] = [
     company: "Team project at Sphiria Digital Studio",
     role: "Frontend Developer",
   },
+
   {
     title: "My Sky Travels",
     description:
@@ -74,17 +150,7 @@ const projects: Project[] = [
     company: "Team project at Sphiria Digital Studio",
     role: "Full Stack Developer",
   },
-  {
-    title: "DocBook",
-    description:
-      "A full-stack DocBook app I built while following a YouTube tutorial, then reviewed and customized to strengthen my MERN stack skills. Demo walkthrough is shared on LinkedIn.",
-    tags: ["React", "Node.js", "Express.js", "MongoDB", "JavaScript"],
-    linkedinEmbedSrc:
-      "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7306929079423827968?compact=1",
-    role: "Full Stack Developer",
-    company: "YouTube tutorial project",
-    githubUrl: "https://github.com/prabodhahdev/DocBook",
-  },
+
   {
     title: "eSabraHub",
     description:
@@ -94,7 +160,7 @@ const projects: Project[] = [
       "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7295401694396309504?compact=1",
     role: "Full Stack Developer",
     company: "University Group Project",
-    githubUrl:"https://github.com/prabodhahdev/eSabraHub",
+    githubUrl: "https://github.com/prabodhahdev/eSabraHub",
   },
 ];
 
@@ -161,7 +227,9 @@ export default function Projects() {
 
                 {(project.company || project.role) && (
                   <p className="text-[#00df82] text-sm font-semibold mb-3">
-                    {[project.role, project.company].filter(Boolean).join(" · ")}
+                    {[project.role, project.company]
+                      .filter(Boolean)
+                      .join(" · ")}
                   </p>
                 )}
 
