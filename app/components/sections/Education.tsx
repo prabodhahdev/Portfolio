@@ -54,7 +54,7 @@ const education: EducationItem[] = [
     institution: "Sri Sumangala National College",
     startDate: "2016",
     endDate: "",
-    duration: "3 yrs",
+    duration: "",
     location: "Nuwara Eliya, Sri Lanka",
     studyType: "Secondary Education",
     result: "7A's",
