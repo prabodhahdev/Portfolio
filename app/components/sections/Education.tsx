@@ -30,8 +30,8 @@ const education: EducationItem[] = [
   {
     degree: "BSc (Hons) in Software Engineering",
     institution: "Sabaragamuwa University of Sri Lanka",
-    startDate: "2022 Aug",
-    endDate: "2026 Aug",
+    startDate: "Aug 2022",
+    endDate: "Aug 2026",
     duration: "4 yrs",
     location: "Belihuloya, Sri Lanka",
     studyType: "Full-time",
