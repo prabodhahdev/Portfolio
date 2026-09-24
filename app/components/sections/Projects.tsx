@@ -55,6 +55,27 @@ export type Project = {
 
 const projects: Project[] = [
   {
+    title: "ReportMe - Weekly Report Generator & Team Dashboard",
+    description:
+    "A full-stack team reporting platform that allows members to create, save, submit, and manage weekly reports with version history. Managers can review reports, request corrections, approve submissions, manage projects and users, and monitor team performance through an interactive dashboard. The platform also includes an AI chat assistant for report-related queries. [Demo Logins - Manager, email:manager@gmail.com | pw-Manager2000@]",
+    tags: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JavaScript",
+      "JWT",
+      "REST API",
+      "Tailwind CSS",
+      "Gemini AI"
+    ],
+    image: "/projects/reportme.png",
+    role: "Full Stack Developer",
+    company: "",
+    githubUrl: "https://github.com/prabodhahdev/weekly-report-app",
+    liveUrl: "https://weekly-report-app-p1ad.vercel.app",
+  },
+  {
     title: "DocBook - User Portal",
     description:
       "A MERN stack patient portal that allows users to find doctors, book and manage appointments, view appointment details, and manage their profiles through a responsive and user-friendly interface.",
@@ -76,27 +97,27 @@ const projects: Project[] = [
     githubUrl: "https://github.com/prabodhahdev/DocBook",
     liveUrl: "https://doc-book-ten.vercel.app/",
   },
-  {
-    title: "DocBook -Admin/Doctor Portal",
-    description:
-      "MERN stack portals designed for administrators and doctors to manage doctors, appointments, availability, profiles, and dashboard information efficiently.",
-    tags: [
-      "React",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "JavaScript",
-      "JWT",
-      "REST API",
-      "Cloudinary",
-      "Tailwind CSS",
-    ],
-    image: "/projects/admin.png",
-    role: "Full Stack Developer",
-    company: "",
-    githubUrl: "https://github.com/prabodhahdev/DocBook",
-    liveUrl: "https://doc-book-admin.vercel.app/",
-  },
+  // {
+  //   title: "DocBook -Admin/Doctor Portal",
+  //   description:
+  //     "MERN stack portals designed for administrators and doctors to manage doctors, appointments, availability, profiles, and dashboard information efficiently.",
+  //   tags: [
+  //     "React",
+  //     "Node.js",
+  //     "Express.js",
+  //     "MongoDB",
+  //     "JavaScript",
+  //     "JWT",
+  //     "REST API",
+  //     "Cloudinary",
+  //     "Tailwind CSS",
+  //   ],
+  //   image: "/projects/admin.png",
+  //   role: "Full Stack Developer",
+  //   company: "",
+  //   githubUrl: "https://github.com/prabodhahdev/DocBook",
+  //   liveUrl: "https://doc-book-admin.vercel.app/",
+  // },
   {
     title: "Laaya Fashion - Ecommerce Website",
     description:
